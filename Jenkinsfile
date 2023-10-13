@@ -4,7 +4,7 @@ pipeline {
         PROJECT_ID = 'sivaraju'
         CLUSTER_NAME = 'cluster-1'
         LOCATION = 'us-central1-c'
-        CREDENTIALS_ID = 'gke'
+        CREDENTIALS_ID = '3ca65099-e4db-4fe1-9cbf-7dd07c2e95cf'
     }
     stages {
         stage("Checkout code") {
