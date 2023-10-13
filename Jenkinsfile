@@ -1,4 +1,7 @@
 pipeline {
+    parameters {
+        choice(name: 'ENVIRONMENT', choices: ['Preproduction', 'Production', 'UAT'], description: 'Select the target environment')
+    }
     agent any
     environment {
         PROJECT_ID = 'sivaraju'
